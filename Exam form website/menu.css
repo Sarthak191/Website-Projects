@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(90deg, #66ff00, #fdff76);
+    box-sizing: border-box;
+    background-position: top;
+    background-blend-mode: lighten;
+    font-family: sans-serif;
+    background-size: cover;
+}
+
+
+
+.menu_bar{
+    background: linear-gradient(45deg, #a700ff, #a700a7);
+    text-align: center;
+}
+
+.menu_bar ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+
+.menu_bar ul li{
+    width: 120px;
+    margin: 15px;
+    padding: 15px;
+}
+
+.menu_bar ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.active, .menu_bar ul li:hover{
+    background: rgb(118, 66, 161);
+    border-radius: 3;
+}
+
+.menu_bar .fa{
+    margin-right: 8px;
+}
+
+.sub_menu_1{
+    display: none;
+}
+
+.menu_bar ul li:hover .sub_menu_1{
+    display: block;
+    position:absolute;
+    background: rgb(140, 86, 177);
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.menu_bar ul li:hover .sub_menu_1 ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu_bar ul li:hover .sub_menu_1 ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: left;
+}
+
+.menu_bar ul li:hover .sub_menu_1 ul li:last-child{
+    border-bottom: none;
+}
+
+.menu_bar ul li:hover .sub_menu_1 ul li a:hover{
+    color: yellowgreen;
+}
+
+.fa-angle-right{
+    float: right;
+}
+
+.contact{
+    text-decoration: none;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 6px 10px;
+    border-radius: 30px;
+}
+
+.menu_bar a .contact:hover{
+    color:#491c9c
+}

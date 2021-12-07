@@ -1,0 +1,77 @@
+.container{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+h1{
+    font-style: initial;
+    font-size: 40px;
+}
+
+h4{
+    color: rebeccapurple;
+    font-style: initial;
+}
+
+hr{
+    border : 1px solid cadetblue;
+    margin-bottom: 30px;
+}
+
+.fname,.lname,.rcourse,.rnum{
+    outline: none;
+    border: none;
+    display: inline-block;
+    width: 150px;
+    height: 20px;
+}
+
+.rnum{
+    width: 100%;
+}
+
+.rcourse{
+    width: 100%;
+}
+
+.fname{
+    width: 50%;
+    height: 25px;
+}
+
+.lname{
+    width: 440px;
+    height: 25px;
+}
+
+.cmts{
+    border: none;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+}
+
+textarea{
+    width: 30%;
+}
+
+.submit{
+    background-color: rgb(26, 83, 102);
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    margin: 8px 0px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    text-decoration: solid;
+    text-shadow: 30%;
+    text-emphasis-style: bold;
+}
+
+.submit:hover{
+    opacity: 10;
+}
